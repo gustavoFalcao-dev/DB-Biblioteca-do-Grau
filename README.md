@@ -1,28 +1,28 @@
-#Biblioteca do Grau
-##Tema
+# Biblioteca do Grau
+## Tema
 
 Banco de dados para gerenciar autores, livros, usuários e empréstimos.
 
-##Integrantes
+## Integrantes
 
 Luiz Gustavo – DCL
 Carlos – DDL
 Filipe – DML
 
-##Função de Cada Integrante
+## Função de Cada Integrante
 
 Carlos: criar banco e tabelas
 Luiz Gustavo: controlar permissões
 Filipe: inserir e manipular dados
 
-##Tabelas
+## Tabelas
 
 author: armazena autores (au_name PK)
 book: armazena livros (isbn PK, title, author FK)
 usr: armazena usuários (id PK, usrname, pwd)
 lend: armazena empréstimos (id PK, l_date, eta, price, l_book FK, l_usr FK)
 
-##Ordem de Execução
+## Ordem de Execução
 
 DDL – criar banco e tabelas
 
